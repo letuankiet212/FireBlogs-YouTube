@@ -7,6 +7,11 @@ import Vue2Editor from "vue2-editor";
 Vue.use(Vue2Editor);
 
 Vue.config.productionTip = false;
+const $ =document.querySelector.bind(document)
+const EventBus = new Vue()
+
+Vue.prototype.$eventBus = EventBus
+Vue.prototype.$ = $
 
 new Vue({
   router,
