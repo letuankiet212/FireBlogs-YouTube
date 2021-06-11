@@ -30,7 +30,7 @@
   .b-0\.5{
     bottom: 0.5rem;
   }
-  @for $i from 0 through 25 {
+  @for $i from 0 through 30 {
     .t-#{$i} {
       top: #{$i}rem;
     }
@@ -119,7 +119,7 @@
       right: unset;
     }
 
-    @for $i from 0 through 25 {
+    @for $i from 0 through 30 {
       .md\:t-#{$i} {
         top: #{$i}rem;
       }
