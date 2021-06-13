@@ -1,15 +1,8 @@
-// Sass Debugger
-/// @copyright João Victor <contatos.jv@hotmail.com>
-/// @license MIT
 /// @link https://github.com/jotavejv/css-sass-debugger
-//
-
-// debuger sass
-$outline: true; //change to outline.
-
-$tags: (none);
+$outline: true;
+$tags: (section, article, p,h1,h2,h3,h4,a);
 $attrs: (style);
-$classes: (none);
+$classes: (text);
 
 @mixin debugger(){
       @each $tag in $tags {
